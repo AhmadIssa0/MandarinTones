@@ -3,7 +3,7 @@ An automatic speech recognition system for converting audio speech in Mandarin t
 
 ### Example
 Here is an example from the test data set. Click [here](/SSB11350366.wav) to play the test audio file.
-<br>Sentence read: 目前已经收到不少手机厂商和软件厂商的合作邀请
+<p>Sentence read: 目前已经收到不少手机厂商和软件厂商的合作邀请
 <br>Expected tone sequence:  4231144331312343152413
 <br>Predicted tone sequence: 4233144331312343152413
 
