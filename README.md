@@ -10,3 +10,5 @@ Here is an example from the test data set. Click [here](/SSB11350366.wav) to pla
 <p align="center">
   <img src="tone_probabilities.png?raw=true"/>
 </p>
+
+The graph above plots probability of a particular tone vs time in audio clip, as predicted by our model. Tone 5 is the 'light tone' or 'no tone' in Chinese, and 0 indicates 'blank' (you can think of it as a pause between two syllables).
