@@ -1,6 +1,8 @@
 # MandarinTones
 An automatic speech recognition system for translating audio speech in Mandarin to its corresponding sequence of tones for each syllable in the utterance. Each syllable in Mandarin Chinese is one of 5 possible tones (4 main tones + 1 light tone). 
 
+Includes implementation of CTC loss, and a custom character-to-tone tagger.
+
 ### Example
 Here is an example from the test data set. Click [here](/SSB11350366.wav) to play the test audio file.
 <p>Sentence read: 目前已经收到不少手机厂商和软件厂商的合作邀请
