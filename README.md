@@ -13,7 +13,7 @@ Here is an example from the test data set. Click [here](/SSB11350366.wav) to pla
   <img src="tone_probabilities.png?raw=true"/>
 </p>
 
-The graph above plots probability of a particular tone vs time frame in the audio clip, as predicted by our model. Tone 5 is the 'light tone' or 'no tone' in Chinese, and 0 indicates 'blank' (you can think of it as a pause between two syllables). We see that the model makes one error, the fourth syllable is predicted as a 3rd tone instead of a 1st tone. Indeed, 2nd red peak in in the graph is relatively low indicating that the model isn't very confident about it being a 3rd tone.
+The graph above plots probability of a particular tone (vertical axis) vs time frame in the audio clip, as predicted by our model (horizontal axis). Tone 5 is the 'light tone' or 'no tone' in Chinese, and 0 indicates 'blank' (you can think of it as a pause between two syllables). We see that the model makes one error, the fourth syllable is predicted as a 3rd tone instead of a 1st tone. Indeed, 2nd red peak in in the graph is relatively low indicating that the model isn't very confident about it being a 3rd tone.
 
 There are different ways to get from the above probability plot to a prediction of the tone sequence. For example, for prediction pred2 we predict the highest probability tone for each frame, then collapse consecutive repeated tones not separated by blanks (then finally remove blanks). More accurate results can often be obtained by performing a beam search, this gives prediction pred1.
 
